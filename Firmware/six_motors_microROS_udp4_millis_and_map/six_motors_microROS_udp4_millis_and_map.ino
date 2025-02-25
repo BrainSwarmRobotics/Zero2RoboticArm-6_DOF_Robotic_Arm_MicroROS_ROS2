@@ -79,7 +79,7 @@ void setup() {
     Serial.begin(115200);
     Serial.println("Starting Micro-ROS ESP32 Node");
 
-    set_microros_wifi_transports("Noectic", "islamabad", "172.20.10.2", 8888);
+    set_microros_wifi_transports("<Your SSID>", "<WiFi Password>", "<MicroROS Agent IP>", 8888);
 
     servo1.setPeriodHertz(50);
     servo2.setPeriodHertz(50);
