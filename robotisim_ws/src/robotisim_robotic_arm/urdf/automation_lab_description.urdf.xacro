@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="automation_lab_description">
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="8.42733314122129E-10 -7.83632932849221E-10 0.0131339548413242" rpy="0 0 0" />
+      <mass value="0.133462680280402" />
+      <inertia
+        ixx="6.80679000064331E-05"
+        ixy="8.29276899439569E-14"
+        ixz="2.33309541601879E-12"
+        iyy="6.89452001264637E-05"
+        iyz="2.0159402068449E-12"
+        izz="0.000108227859090869" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/base_link.STL" />
+      </geometry>
+      <material name="base_material">
+        <color rgba="0.792 0.82 0.933 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="link1">
+    <inertial>
+      <origin xyz="0.002145828189896 -0.0156062150937305 0.0594869401671343" rpy="0 0 0" />
+      <mass value="0.0167392033717616" />
+      <inertia
+        ixx="2.83815397709826E-05"
+        ixy="-3.32958603211551E-23"
+        ixz="1.18801289732245E-22"
+        iyy="2.5901189159329E-05"
+        iyz="6.57888452256705E-06"
+        izz="2.55009729236924E-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/link1.STL" />
+      </geometry>
+      <material name="link1_material">
+        <color rgba="0.792 0.82 0.933 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <origin xyz="-0.0021458 0 0.034765" rpy="-0.31971 0 0" />
+    <parent link="base_link" />
+    <child link="link1" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14" upper="3.14" effort="0.1" velocity="0.5" />
+  </joint>
+
+  <link name="link2">
+    <inertial>
+      <origin xyz="0.00214582818989599 0.0672889930071242 -0.026989653945303" rpy="0 0 0" />
+      <mass value="0.0193792033717616" />
+      <inertia
+        ixx="4.35566255409592E-05"
+        ixy="4.48632131738975E-21"
+        ixz="-1.47138353725325E-21"
+        iyy="6.73880803048465E-06"
+        iyz="1.44164359450204E-05"
+        izz="3.68985641911903E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/link2.STL" />
+      </geometry>
+      <material name="link2_material">
+        <color rgba="0.792 0.82 0.933 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint2" type="revolute">
+    <origin xyz="0 -0.031212 0.11897" rpy="-0.069411 0 0" />
+    <parent link="link1" />
+    <child link="link2" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14" upper="3.14" effort="0.1" velocity="0.5" />
+  </joint>
+
+  <link name="link3">
+    <inertial>
+      <origin xyz="0.00214582818989599 0.019435340314808 -0.0235056917968312" rpy="0 0 0" />
+      <mass value="0.00929920337176157" />
+      <inertia
+        ixx="5.32663175471859E-06"
+        ixy="-2.06045520708131E-23"
+        ixz="-1.08273418539216E-23"
+        iyy="3.10190325015661E-06"
+        iyz="2.19142495279948E-06"
+        izz="2.26347518527766E-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/link3.STL" />
+      </geometry>
+      <material name="link3_material">
+        <color rgba="0.792 0.82 0.933 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://automation_lab_description/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint3" type="revolute">
+    <origin xyz="0 0.13458 -0.053979" rpy="0.38912 0 0" />
+    <parent link="link2" />
+    <child link="link3" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14" upper="3.14" effort="0.1" velocity="0.5" />
+  </joint>
+  
+      <ros2_control name="automation_lab_control" type="system">
+      <hardware>
+	      <plugin>dynamixel_hardware/DynamixelHardware</plugin>
+      </hardware>
+            <joint name="joint1">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+      </joint>
+
+      <joint name="joint2">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+      </joint>
+
+      <joint name="joint3">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+      </joint>
+
+     </ros2_control>
+
+</robot>
+

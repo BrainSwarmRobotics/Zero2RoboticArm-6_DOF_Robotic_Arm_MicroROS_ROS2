@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robotisim_robotic_arm
+    relative_path: urdf/robotisim_robotic_arm.urdf
+  srdf:
+    relative_path: config/robotisim_robotic_arm.srdf
+  package_settings:
+    author_name: muneeb
+    author_email: muneeb@agencinexus.co
+    generated_timestamp: 1740377232
