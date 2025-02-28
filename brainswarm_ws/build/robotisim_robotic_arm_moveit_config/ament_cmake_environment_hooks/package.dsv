@@ -1,4 +1,0 @@
-source;share/robotisim_robotic_arm_moveit_config/local_setup.bash
-source;share/robotisim_robotic_arm_moveit_config/local_setup.dsv
-source;share/robotisim_robotic_arm_moveit_config/local_setup.sh
-source;share/robotisim_robotic_arm_moveit_config/local_setup.zsh

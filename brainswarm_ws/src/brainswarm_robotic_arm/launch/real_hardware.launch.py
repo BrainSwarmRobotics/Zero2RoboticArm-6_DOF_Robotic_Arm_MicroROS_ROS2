@@ -9,7 +9,7 @@ import os
 
 def generate_launch_description():
     # Path to URDF
-    pkg_share = os.path.join(os.getenv('HOME'), 'Desktop', 'brainswarm_ws', 'src', 'brainswarm_robotic_arm')
+    pkg_share = os.path.join(os.getenv('HOME'), 'Documents', 'Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2', 'brainswarm_ws', 'src', 'brainswarm_robotic_arm')
     default_model_path = os.path.join(pkg_share, 'urdf', 'real_hardware.urdf.xacro')
 
     # Declare arguments
