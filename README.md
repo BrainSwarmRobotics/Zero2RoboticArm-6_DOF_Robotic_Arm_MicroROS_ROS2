@@ -82,12 +82,12 @@ sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-
 
 ### 4️⃣ Configure Packages
 
-Go to `robotisim_ws/src/robotisim_robotic_arm/launch`. Modify **Line 45** and **Line 48** with appropriate Paths.
+Go to `brainswarm_ws/src/brainswarm_robotic_arm/launch`. Modify **Line 45** and **Line 48** with appropriate Paths.
 
 ### 4️⃣ Build Workspace
 
 ```bash
-cd robotisim_ws
+cd brainswarm_ws
 ```
 
  Run the following command
@@ -115,19 +115,19 @@ After running above command, switch on / power on the Robotic Arm.
 In another terminal, run the following command to start the simulation
 
 ```bash
-ros2 launch robotisim_robotic_arm simulation.launch.py
+ros2 launch brainswarm_robotic_arm simulation.launch.py
 ```
 
 #### Starting Interface for Real Hardware Integration
 
 ```bash
-ros2 launch robotisim_robotic_arm real_hardware.launch.py
+ros2 launch brainswarm_robotic_arm real_hardware.launch.py
 ```
 
 For starting controllers, you need to run following script, inside the root of your `ROS2 Workspace` run following command
 
 ```
-./src/robotisim_robotic_arm/start_controllers
+./src/brainswarm_robotic_arm/start_controllers
 ```
 
 It will start all controllers
@@ -135,7 +135,7 @@ It will start all controllers
 #### Starting the Motion Planner
 
 ```
-ros2 launch robotisim_robotic_arm_moveit_config move_group.launch.py
+ros2 launch brainswarm_robotic_arm_moveit_config move_group.launch.py
 ```
 
 #### Setting SIM Time Parameter
