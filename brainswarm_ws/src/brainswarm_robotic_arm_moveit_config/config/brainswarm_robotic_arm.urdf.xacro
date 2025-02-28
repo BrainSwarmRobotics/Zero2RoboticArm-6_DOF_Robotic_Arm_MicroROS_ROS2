@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="brainswarm_robotic_arm">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import brainswarm_robotic_arm urdf file -->
+    <xacro:include filename="$(find brainswarm_robotic_arm)/urdf/brainswarm_robotic_arm.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="brainswarm_robotic_arm.ros2_control.xacro" />
+
+
+    <xacro:brainswarm_robotic_arm_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

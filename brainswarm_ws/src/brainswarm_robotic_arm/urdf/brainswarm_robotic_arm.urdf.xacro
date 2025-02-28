@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com)
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="brainswarm_robotic_arm">
+  <link name="world" />
+  <joint name="world_fixed" type="fixed">
+    <parent link="world" />
+    <child link="base_link" />
+  </joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00204995011634888 -0.0013568295468784 0.0241952654679318"
+        rpy="0 0 0" />
+      <mass
+        value="0.129914110072269" />
+      <inertia
+        ixx="0.000137918155311093"
+        ixy="6.16598410102602E-06"
+        ixz="-3.03105894479001E-06"
+        iyy="0.000143152813475306"
+        iyz="2.00621343324056E-06"
+        izz="0.000213999946093168" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_1">
+    <inertial>
+      <origin
+        xyz="-0.0137888438406219 -0.00362693293121285 0.0226362055648196"
+        rpy="0 0 0" />
+      <mass
+        value="0.101914124966612" />
+      <inertia
+        ixx="6.1280499711277E-05"
+        ixy="4.97407108493283E-06"
+        ixz="8.19530945278062E-06"
+        iyy="5.55976350373255E-05"
+        iyz="-4.83350549107714E-06"
+        izz="6.23847221180022E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.0566"
+      rpy="0 0 -0.78" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+  <link
+    name="link_2">
+    <inertial>
+      <origin
+        xyz="-0.00181173640499305 0.00176779024696806 0.0585628483478335"
+        rpy="0 0 0" />
+      <mass
+        value="0.0643851410120395" />
+      <inertia
+        ixx="0.000106917717811877"
+        ixy="-8.06934088602823E-09"
+        ixz="3.24473269191733E-06"
+        iyy="0.000111831242505046"
+        iyz="2.38709472096612E-07"
+        izz="9.21611171966149E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_2"
+    type="revolute">
+    <origin
+      xyz="-0.0028028 0.014266 0.040276"
+      rpy="0 -1 -1.0837" />
+    <parent
+      link="link_1" />
+    <child
+      link="link_2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+  <link
+    name="link_3">
+    <inertial>
+      <origin
+        xyz="-0.0214794613154096 -0.0227152796924238 0.0224280683333677"
+        rpy="0 0 0" />
+      <mass
+        value="0.0912746926492035" />
+      <inertia
+        ixx="4.11888089584507E-05"
+        ixy="-3.91865228915033E-07"
+        ixz="2.45343789609606E-05"
+        iyy="6.48147315419532E-05"
+        iyz="4.09472891488387E-07"
+        izz="3.89440270523046E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_3"
+    type="revolute">
+    <origin
+      xyz="-0.0039767 0 0.11993"
+      rpy="0 1.0 0" />
+    <parent
+      link="link_2" />
+    <child
+      link="link_3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+  <link
+    name="link_4">
+    <inertial>
+      <origin
+        xyz="0.0192431133520643 -0.00468896726705134 -0.00486850061846972"
+        rpy="0 0 0" />
+      <mass
+        value="0.0236280654739583" />
+      <inertia
+        ixx="3.08746297553031E-06"
+        ixy="-1.30769444603168E-07"
+        ixz="6.39583860627755E-07"
+        iyy="4.6340060273881E-06"
+        iyz="-2.36415157525712E-07"
+        izz="5.30133518226429E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_4"
+    type="revolute">
+    <origin
+      xyz="-0.067003 -0.0167 0.062667"
+      rpy="-2.2251 -0.76216 -3.1416" />
+    <parent
+      link="link_3" />
+    <child
+      link="link_4" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-1"
+      upper="1.57"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+  <link
+    name="gripper_body">
+    <inertial>
+      <origin
+        xyz="-0.0212487659987141 -0.0104868778205601 -0.0186310253452646"
+        rpy="0 0 0" />
+      <mass
+        value="0.022849994230099" />
+      <inertia
+        ixx="4.77743683135887E-06"
+        ixy="-1.24258597422371E-06"
+        ixz="-2.7718039424027E-06"
+        iyy="7.69973117098014E-06"
+        iyz="-8.04241165083622E-07"
+        izz="6.92233157211724E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_body.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_body.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper_body_joint"
+    type="revolute">
+    <origin
+      xyz="0.027522 -0.00018364 -0.021708"
+      rpy="-1.8495 -0.034709 3.0809" />
+    <parent
+      link="link_4" />
+    <child
+      link="gripper_body" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+  <link
+    name="gripper_right_arm">
+    <inertial>
+      <origin
+        xyz="0.000713131452429128 0.0373870000178132 -0.00619628696736579"
+        rpy="0 0 0" />
+      <mass
+        value="0.00803908494447857" />
+      <inertia
+        ixx="1.80504975638724E-06"
+        ixy="4.25074055848134E-07"
+        ixz="4.23986071750367E-12"
+        iyy="4.28425452232142E-07"
+        iyz="-5.1569238497986E-12"
+        izz="2.16143641884783E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_right_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_right_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper_right_arm_joint"
+    type="revolute">
+    <mimic joint="gripper_left_arm_joint"/>
+    <origin
+      xyz="-0.039784 0.004 -0.015351"
+      rpy="-0.82657 -0.16653 1.4193" />
+    <parent
+      link="gripper_body" />
+    <child
+      link="gripper_right_arm" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.4"
+      upper="0"
+      effort="1000"
+      velocity="10" />
+  </joint>
+  <link
+    name="gripper_left_arm">
+    <inertial>
+      <origin
+        xyz="-0.0164564270062939 0.0337213794674381 -0.00623617507733432"
+        rpy="0 0 0" />
+      <mass
+        value="0.00796332106924134" />
+      <inertia
+        ixx="1.88450714843574E-06"
+        ixy="2.29597773651007E-07"
+        ixz="1.77026611497652E-12"
+        iyy="3.47707776673474E-07"
+        iyz="9.15654501080361E-12"
+        izz="2.16037824091747E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_left_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_left_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper_left_arm_joint"
+    type="revolute">
+    <origin
+      xyz="-0.039784 -0.0229 -0.015351"
+      rpy="-0.82657 -0.16653 1.4193" />
+    <parent
+      link="gripper_body" />
+    <child
+      link="gripper_left_arm" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.4"
+      upper="0"
+      effort="1000.0"
+      velocity="10" />
+  </joint>
+  <link
+    name="gripper_right_wing">
+    <inertial>
+      <origin
+        xyz="0.00580191025799157 0.014373163790736 -0.00824999999995041"
+        rpy="0 0 0" />
+      <mass
+        value="0.00159752482636938" />
+      <inertia
+        ixx="1.78020067721761E-07"
+        ixy="-6.89274501022285E-08"
+        ixz="4.63221143029695E-23"
+        iyy="3.50884498010982E-08"
+        iyz="9.76073122812573E-23"
+        izz="2.08848451319207E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_right_wing.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_right_wing.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper_right_wing_joint"
+    type="revolute">
+    <origin
+      xyz="-0.053145 -0.004 -0.030233"
+      rpy="-0.82657 -0.16653 1.4193" />
+    <parent
+      link="gripper_body" />
+    <child
+      link="gripper_right_wing" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1"
+      upper="1"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+  <link
+    name="gripper_left_wing">
+    <inertial>
+      <origin
+        xyz="-0.011569209703223 0.0103152017353376 -0.00824999999996218"
+        rpy="0 0 0" />
+      <mass
+        value="0.00159752482636938" />
+      <inertia
+        ixx="9.52126672233214E-08"
+        ixy="9.86393609535891E-08"
+        ixz="2.05140791913151E-22"
+        iyy="1.17895850299537E-07"
+        iyz="-1.83634095986772E-22"
+        izz="2.08848451319207E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_left_wing.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://brainswarm_robotic_arm/meshes/gripper_left_wing.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper_left_wing_joint"
+    type="revolute">
+    <origin
+      xyz="-0.053145 -0.014 -0.030233"
+      rpy="-0.82657 -0.16653 1.4193" />
+    <parent
+      link="gripper_body" />
+    <child
+      link="gripper_left_wing" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1"
+      upper="1"
+      effort="10"
+      velocity="1" />
+    <dynamics damping="3.0"/>
+  </joint>
+
+
+  <ros2_control name="IgnitionSystem" type="system">
+        <hardware>
+          <plugin>ign_ros2_control/IgnitionSystem</plugin>
+        </hardware>
+
+        <joint name="joint_1">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">3.14</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+
+        </joint>
+
+        <joint name="joint_2">
+            <command_interface name="position">
+                <param name="min">-2.879793</param>
+                <param name="max">2.879793</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+        </joint>
+
+        <joint name="joint_3">
+            <command_interface name="position">
+                <param name="min">-2.879793</param>
+                <param name="max">2.879793</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+        </joint>
+
+        <joint name="joint_4">
+            <command_interface name="position">
+                <param name="min">-2.879793</param>
+                <param name="max">2.879793</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+        </joint>
+
+        <joint name="gripper_body_joint">
+            <command_interface name="position">
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+        </joint>
+
+        <joint name="gripper_left_arm_joint">
+            <command_interface name="position">
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="gripper_right_arm_joint">
+            <param name="mimic">gripper_left_arm_joint</param>
+            <param name="multiplier">1</param>
+            <command_interface name="position">
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="gripper_right_wing_joint">
+            <command_interface name="position">
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="gripper_left_wing_joint">
+            <command_interface name="position">
+                <param name="min">-1.57</param>
+                <param name="max">1.57</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+
+    </ros2_control>
+
+  <gazebo>
+    <!-- Joint state publisher -->
+    <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+      <parameters>$(find brainswarm_robotic_arm)/config/brainswarm_robotic_arm_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>
