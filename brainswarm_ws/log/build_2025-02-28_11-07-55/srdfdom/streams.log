@@ -1,0 +1,73 @@
+[0.027s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom -- -j8 -l8
+[0.089s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[0.090s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.091s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[0.091s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.109s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[0.633s] running egg_info
+[0.633s] creating srdfdom.egg-info
+[0.634s] writing srdfdom.egg-info/PKG-INFO
+[0.634s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.634s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.634s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.638s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.639s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.678s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[1.061s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.473s] [ 45%] Built target gtest_main
+[2.280s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[2.445s] [ 54%] Built target srdfdom
+[3.090s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.170s] [ 63%] Built target gtest
+[3.189s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[3.190s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[4.476s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[4.480s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[4.653s] [100%] Built target test_cpp_nl_NL.UTF-8
+[4.657s] [100%] Built target test_cpp_C
+[4.668s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom -- -j8 -l8
+[4.701s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom
+[4.708s] -- Install configuration: ""
+[4.708s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[4.709s] -- Set runtime path of "/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/libsrdfdom.so
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom/srdf_writer.h
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom/model.h
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom/visibility_control.h
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/srdfdom/display_srdf
+[4.710s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[4.711s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[4.745s] Listing '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[4.745s] Compiling '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[4.745s] Compiling '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/path.sh
+[4.751s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.bash
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.sh
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/package.dsv
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[4.752s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[4.753s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[4.753s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.753s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[4.753s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[4.753s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/package.xml
+[4.756s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ros2 param set /real_robot/controller_manager real_arm_controller.type joint_trajectory_controller/JointTrajectoryController
+ros2 run controller_manager spawner -c /real_robot/controller_manager -n real_robot -p /home/muneeb/Desktop/brainswarm_ws/src/brainswarm_robotic_arm/config/real_robotic_arm_controllers.yaml -t joint_trajectory_controller/JointTrajectoryController real_arm_controller
+
+ros2 param set /real_robot/controller_manager real_state_controller.type joint_state_broadcaster/JointStateBroadcaster
+ros2 run controller_manager spawner -c /real_robot/controller_manager -n real_robot -p /home/muneeb/Public/brainswarm_ws/src/brainswarm_robotic_arm/config/real_robotic_arm_controllers.yaml -t joint_state_broadcaster/JointStateBroadcaster real_state_controller
+
+ros2 param set /real_robot/controller_manager real_gripper_controller.type joint_trajectory_controller/JointTrajectoryController
+ros2 run controller_manager spawner -c /real_robot/controller_manager -n real_robot -p /home/muneeb/Public/brainswarm_ws/src/brainswarm_robotic_arm/config/real_robotic_arm_controllers.yaml -t joint_trajectory_controller/JointTrajectoryController real_gripper_controller

@@ -1,0 +1,36 @@
+[0.022s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware -- -j8 -l8
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[10.266s] [100%] [32m[1mLinking CXX shared library libdynamixel_hardware.so[0m
+[10.882s] [100%] Built target dynamixel_hardware
+[10.892s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware -- -j8 -l8
+[10.920s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware
+[10.928s] -- Install configuration: ""
+[10.928s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/dynamixel_hardware.xml
+[10.928s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+[10.933s] -- Set runtime path of "/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so" to ""
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+[10.933s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+[10.934s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+[10.935s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+[10.935s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+[10.935s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+[10.935s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+[10.935s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+[10.936s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.936s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[10.936s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.936s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+[10.937s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+[10.937s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml
+[10.938s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware

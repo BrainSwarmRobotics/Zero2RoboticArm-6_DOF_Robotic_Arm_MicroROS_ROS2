@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/brainswarm_robotic_arm/models":
+  No such file or directory.
+
+[0m

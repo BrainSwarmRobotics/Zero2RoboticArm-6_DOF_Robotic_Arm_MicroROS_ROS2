@@ -1,0 +1,61 @@
+[0.018s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/robotisim_robotic_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.313s] -- The CXX compiler identification is GNU 7.5.0
+[0.320s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.424s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.428s] -- Detecting CXX compiler ABI info
+[0.511s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.532s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.709s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.915s] -- Configuring done
+[0.919s] -- Generating done
+[0.921s] -- Build files have been written to: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config
+[0.927s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/robotisim_robotic_arm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config
+[0.929s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config -- -j8 -l8
+[0.970s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config -- -j8 -l8
+[1.005s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config
+[1.013s] -- Install configuration: ""
+[1.013s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/robotisim_robotic_arm_moveit_config
+[1.013s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/robotisim_robotic_arm_moveit_config
+[1.013s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/environment/ament_prefix_path.sh
+[1.013s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/environment/ament_prefix_path.dsv
+[1.013s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/environment/path.sh
+[1.013s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/environment/path.dsv
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/local_setup.bash
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/local_setup.sh
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/local_setup.zsh
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/local_setup.dsv
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/package.dsv
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/ament_index/resource_index/packages/robotisim_robotic_arm_moveit_config
+[1.014s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/cmake/robotisim_robotic_arm_moveit_configConfig.cmake
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/cmake/robotisim_robotic_arm_moveit_configConfig-version.cmake
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/package.xml
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/moveit_rviz.launch.py
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/spawn_controllers.launch.py
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/demo.launch.py
+[1.015s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/rsp.launch.py
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/warehouse_db.launch.py
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/setup_assistant.launch.py
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/launch/move_group.launch.py
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/robotisim_robotic_arm.urdf.xacro
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/ros2_controllers.yaml
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/robotisim_robotic_arm.srdf
+[1.016s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/sensors_3d.yaml
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/initial_positions.yaml
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/robotisim_robotic_arm.ros2_control.xacro
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/joint_limits.yaml
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/moveit.rviz
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/kinematics.yaml
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/config/moveit_controllers.yaml
+[1.017s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/robotisim_robotic_arm_moveit_config/share/robotisim_robotic_arm_moveit_config/.setup_assistant
+[1.020s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/robotisim_robotic_arm_moveit_config

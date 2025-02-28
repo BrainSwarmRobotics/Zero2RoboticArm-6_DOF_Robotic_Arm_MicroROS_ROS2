@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm
+-- Install configuration: ""
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/lib/brainswarm_robotic_arm/trajectory_controller
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/lib/brainswarm_robotic_arm/gripper_trajectory_controller
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/ros_gz_bridge.yaml
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/real_robotic_arm_controllers.yaml
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/brainswarm_robotic_arm_controllers.yaml
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_right_arm.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_2.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_body.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_1.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_left_arm.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_4.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_3.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_left_wing.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_right_wing.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/base_link.STL
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/real_hardware.launch.py
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/simulation.launch.py
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts/trajectory_controller
+-- Up-to-date: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts/gripper_trajectory_controller
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/brainswarm_robotic_arm.urdf.xacro
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/brainswarm_robotic_arm.urdf
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/real_hardware.urdf.xacro
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/brainswarm_robotic_arm.csv
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/ament_index/resource_index/package_run_dependencies/brainswarm_robotic_arm
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/ament_index/resource_index/parent_prefix_path/brainswarm_robotic_arm
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/ament_prefix_path.sh
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/ament_prefix_path.dsv
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/path.sh
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/path.dsv
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.bash
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.sh
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.zsh
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.dsv
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/package.dsv
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/ament_index/resource_index/packages/brainswarm_robotic_arm
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/cmake/brainswarm_robotic_armConfig.cmake
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/cmake/brainswarm_robotic_armConfig-version.cmake
+-- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/package.xml

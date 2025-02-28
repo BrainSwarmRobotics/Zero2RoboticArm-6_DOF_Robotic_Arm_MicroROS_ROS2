@@ -1,0 +1,58 @@
+[0.028s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/brainswarm_robotic_arm -DCMAKE_INSTALL_PREFIX=/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.324s] -- The CXX compiler identification is GNU 7.5.0
+[0.333s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.433s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.537s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.779s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.921s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.037s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.038s] -- Added test 'lint_cmake' to check CMake code style
+[1.039s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.041s] -- Added test 'xmllint' to check XML markup files
+[1.042s] -- Configuring done
+[1.045s] -- Generating done
+[1.046s] -- Build files have been written to: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm
+[1.066s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/brainswarm_robotic_arm -DCMAKE_INSTALL_PREFIX=/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm
+[1.068s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm -- -j8 -l8
+[1.105s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm -- -j8 -l8
+[1.126s] Invoking command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm
+[1.133s] -- Install configuration: ""
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/lib/brainswarm_robotic_arm/trajectory_controller
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/lib/brainswarm_robotic_arm/gripper_trajectory_controller
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/ros_gz_bridge.yaml
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/real_robotic_arm_controllers.yaml
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/brainswarm_robotic_arm_controllers.yaml
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_right_arm.STL
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_2.STL
+[1.134s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_body.STL
+[1.135s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_1.STL
+[1.135s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_left_arm.STL
+[1.135s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_4.STL
+[1.135s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_3.STL
+[1.136s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_left_wing.STL
+[1.138s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_right_wing.STL
+[1.139s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/base_link.STL
+[1.139s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch
+[1.139s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/real_hardware.launch.py
+[1.139s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/simulation.launch.py
+[1.139s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts
+[1.139s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts/trajectory_controller
+[1.140s] -- Installing: /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts/gripper_trajectory_controller
+[1.141s] [31mCMake Error at cmake_install.cmake:54 (file):
+[1.141s]   file INSTALL cannot find
+[1.141s]   "/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/brainswarm_robotic_arm/models":
+[1.141s]   No such file or directory.
+[1.141s] 
+[1.141s] [0m
+[1.142s] Invoked command in '/home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Documents/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm
