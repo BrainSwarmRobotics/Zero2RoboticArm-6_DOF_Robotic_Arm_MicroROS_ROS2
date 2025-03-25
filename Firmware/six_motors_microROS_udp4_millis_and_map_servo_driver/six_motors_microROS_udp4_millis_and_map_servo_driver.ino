@@ -1,3 +1,6 @@
+#include <Wire.h>
+#include <Adafruit_PWMServoDriver.h>
+
 #include <micro_ros_arduino.h>
 #include <rcl/rcl.h>
 #include <rcl/error_handling.h>
@@ -5,7 +8,15 @@
 #include <rclc/executor.h>
 #include <std_msgs/msg/float64_multi_array.h>
 
-#include <ESP32Servo.h>
+
+#define I2C_SDA 21
+#define I2C_SCL 22
+
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40); // Default I2C address
+
+#define SERVO_MIN 150  // Min pulse length (approx. 0 degrees)
+#define SERVO_MAX 600  // Max pulse length (approx. 180 degrees)
+#define SERVO_FREQ 50  // Servo frequency in Hz
 
 rcl_subscription_t subscriber;
 std_msgs__msg__Float64MultiArray msg;
@@ -18,24 +29,16 @@ rcl_node_t node;
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if ((temp_rc != RCL_RET_OK)) {} }
 
 
-Servo servo1, servo2, servo3, servo4, servo5, servo6;
-int servo1Pin = 12; //Base
-int servo2Pin = 13; //Wrist
-int servo3Pin = 14; // Elbow
-int servo4Pin = 15; //Shoulder 1
-int servo5Pin = 21; //Shoulder 2
-int servo6Pin = 22; //Gripper
-
 float currentAngle1 = 0, targetAngle1;
 float currentAngle2 = 0, targetAngle2; // Reverse direction
-float currentAngle3 = 0, targetAngle3; // Reverse direction
+float currentAngle3 = 180, targetAngle3; // Reverse direction
 float currentAngle4 = 0, targetAngle4; // Reverse direction
 float currentAngle5 = 0, targetAngle5; // Reverse direction
 float currentAngle6 = 0, targetAngle6; // Reverse direction
 
-const float stepSize = 1.0; // Degrees per update
+const float stepSize = 3.0; // Degrees per update
 unsigned long lastUpdateTime = 0;
-const int updateInterval = 10; // Milliseconds
+const int updateInterval = 0.01; // Milliseconds
 
 void error_loop() {
   while (1) {
@@ -74,61 +77,48 @@ void subscription_callback(const void *msgin) {
   }
 }
 
-
 void setup() {
     Serial.begin(115200);
     Serial.println("Starting Micro-ROS ESP32 Node");
 
-    set_microros_wifi_transports("<Your SSID>", "<WiFi Password>", "<MicroROS Agent IP>", 8888);
+    set_microros_wifi_transports("Noectic", "islamabad", "172.20.10.2", 8888);
 
-    servo1.setPeriodHertz(50);
-    servo2.setPeriodHertz(50);
-    servo3.setPeriodHertz(50);
-    servo4.setPeriodHertz(50);
-    servo5.setPeriodHertz(50);
-    servo6.setPeriodHertz(50);
+    Wire.begin(I2C_SDA, I2C_SCL);
+    pwm.begin();
+    pwm.setPWMFreq(SERVO_FREQ);
 
-    servo1.attach(servo1Pin, 500, 2400);
-    servo2.attach(servo2Pin, 500, 2400);
-    servo3.attach(servo3Pin, 500, 2400);
-    servo4.attach(servo4Pin, 1000, 2000);
-    servo5.attach(servo5Pin, 1000, 2000);
-    servo6.attach(servo6Pin, 1000, 2000);
+    allocator = rcl_get_default_allocator();
+    RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
+    RCCHECK(rclc_node_init_default(&node, "hardware_driver_node", "", &support));
 
-    // Set initial positions
-    servo1.writeMicroseconds(mapFloat(currentAngle1, 0, 180, 500, 2400));
-    servo2.writeMicroseconds(mapFloat(currentAngle2, 0, 180, 500, 2400));
-    servo3.writeMicroseconds(mapFloat(currentAngle3, 0, 180, 500, 2400));
-    servo4.writeMicroseconds(mapFloat(currentAngle4, 0, 180, 1000, 2000));
-    servo5.writeMicroseconds(mapFloat(currentAngle5, 0, 180, 1000, 2000));
-    servo6.writeMicroseconds(mapFloat(currentAngle6, 0, 180, 1000, 2000));
+    rmw_qos_profile_t qos_profile = rmw_qos_profile_default;
+    qos_profile.depth = 1;
+    qos_profile.history = RMW_QOS_POLICY_HISTORY_KEEP_LAST;
 
+    RCCHECK(rclc_subscription_init(
+      &subscriber,
+      &node,
+      ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float64MultiArray),
+      "motor_command",
+      &qos_profile));
 
+    std_msgs__msg__Float64MultiArray__init(&msg);
+    size_t array_size = 6;
+    msg.data.data = (double *)malloc(array_size * sizeof(double));
+    msg.data.size = array_size;
+    msg.data.capacity = array_size;
 
-  allocator = rcl_get_default_allocator();
-  RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
-  RCCHECK(rclc_node_init_default(&node, "hardware_driver_node", "", &support));
+    RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
+    RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &msg, &subscription_callback, ON_NEW_DATA));
 
-  rmw_qos_profile_t qos_profile = rmw_qos_profile_default;
-  qos_profile.depth = 1;
-  qos_profile.history = RMW_QOS_POLICY_HISTORY_KEEP_LAST;
-
-  RCCHECK(rclc_subscription_init(
-    &subscriber,
-    &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float64MultiArray),
-    "motor_command",
-    &qos_profile));
-
-  std_msgs__msg__Float64MultiArray__init(&msg);
-  size_t array_size = 6;
-  msg.data.data = (double *)malloc(array_size * sizeof(double));
-  msg.data.size = array_size;
-  msg.data.capacity = array_size;
-
-  RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
-  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &msg, &subscription_callback, ON_NEW_DATA));
-
+    //Set Initial Positions
+    uint16_t pulseLength = map(currentAngle1, 0, 180, SERVO_MIN, SERVO_MAX);
+    pwm.setPWM(0, 0, pulseLength);
+    pwm.setPWM(1, 0, pulseLength);
+    pwm.setPWM(2, 0, pulseLength);
+    pwm.setPWM(3, 0, pulseLength);
+    pwm.setPWM(4, 0, pulseLength);
+    pwm.setPWM(5, 0, pulseLength);
 }
 
 void loop() {
@@ -188,21 +178,19 @@ void loop() {
         }
 
         // Convert angle to pulse width (500µs - 2400µs)
-        int pulseWidth1 = mapFloat(currentAngle1, 0, 180, 500, 2400);
-        int pulseWidth2 = mapFloat(currentAngle2, 0, 180, 500, 2400);
-        int pulseWidth3 = mapFloat(currentAngle3, 0, 180, 500, 2400);
-        int pulseWidth4 = mapFloat(currentAngle4, 0, 120, 1000, 2000);
-        int pulseWidth5 = mapFloat(currentAngle5, 0, 120, 1000, 2000);
-        int pulseWidth6 = mapFloat(currentAngle6, 0, 120, 1000, 2000);
+        int pulseWidth1 = mapFloat(currentAngle1, 0, 180, 150, 600);
+        int pulseWidth2 = mapFloat(currentAngle2, 0, 180, 150, 600);
+        int pulseWidth3 = mapFloat(currentAngle3, 0, 180, 150, 600);
+        int pulseWidth4 = mapFloat(currentAngle4, 0, 180, 150, 600);
+        int pulseWidth5 = mapFloat(currentAngle5, 0, 180, 150, 600);
+        int pulseWidth6 = mapFloat(currentAngle6, 0, 180, 150, 600);
 
-        servo1.writeMicroseconds(pulseWidth1);
-        servo2.writeMicroseconds(pulseWidth2);
-        servo3.writeMicroseconds(pulseWidth3);
-        servo4.writeMicroseconds(pulseWidth4);
-        servo5.writeMicroseconds(pulseWidth5);
-        servo6.writeMicroseconds(pulseWidth6);
-
-
+        pwm.setPWM(5, 0, pulseWidth1);
+        pwm.setPWM(4, 0, pulseWidth2);
+        pwm.setPWM(3, 0, pulseWidth3);
+        pwm.setPWM(2, 0, pulseWidth4);
+        pwm.setPWM(1, 0, pulseWidth5);
+        pwm.setPWM(0, 0, pulseWidth6);
 
 
     }

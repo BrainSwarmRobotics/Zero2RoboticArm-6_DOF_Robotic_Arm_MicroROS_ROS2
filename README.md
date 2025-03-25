@@ -69,14 +69,12 @@ https://github.com/munn33b/esp32-microROS/blob/main/README.md
 ### 3️⃣ Clone This Repository
 
 ```bash
-sh
-git clone https://github.com/munn33b/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2
+git clone https://github.com/BrainSwarmRobotics/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2
 ```
 
 ### 4️⃣ Install Dependencies
 
 ```bash
-sh
 sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-ros-ign ros-humble-ign-ros2-control ros-humble-ros-ign-gazebo
 ```
 
@@ -98,21 +96,9 @@ colcon build
 
 ### 4️⃣ Running the System
 
-To run the complete robotic Arm system, make sure you have `micro_ros_agent` running. In the `Firmware/six_motors_microROS_udp4_millis_and_map/six_motors_microROS_udp4_millis_and_map.ino` file, modify line 82 with appropriate values.
-
-After that, run the Micro ROS Agent on terminal
-
-```bash
-ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
-```
-
-After running above command, switch on / power on the Robotic Arm.
-
-**Note:** The sequence is important, make sure the `micro_ros_agent` is running before powering on the robotic arm. After that, proceed with further steps.
-
 #### Running the Simulation
 
-In another terminal, run the following command to start the simulation
+In terminal, run the following command to start the simulation
 
 ```bash
 ros2 launch brainswarm_robotic_arm simulation.launch.py
@@ -131,6 +117,18 @@ For starting controllers, you need to run following script, inside the root of y
 ```
 
 It will start all controllers
+
+To run the complete robotic Arm system, make sure you have `micro_ros_agent` running. In the `Firmware/six_motors_microROS_udp4_millis_and_map_servo_driver/six_motors_microROS_udp4_millis_and_map_servo_driver.ino` file, modify line 84 with appropriate values.
+
+After that, run the Micro ROS Agent on terminal
+
+```bash
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+```
+
+After running above command, switch on / power on the Robotic Arm.
+
+**Note:** The sequence is important, make sure the `micro_ros_agent` is running before powering on the robotic arm. After that, proceed with further steps.
 
 #### Starting the Motion Planner
 
