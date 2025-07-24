@@ -1,0 +1,4 @@
+source;share/brainswarm_robotic_arm/local_setup.bash
+source;share/brainswarm_robotic_arm/local_setup.dsv
+source;share/brainswarm_robotic_arm/local_setup.sh
+source;share/brainswarm_robotic_arm/local_setup.zsh

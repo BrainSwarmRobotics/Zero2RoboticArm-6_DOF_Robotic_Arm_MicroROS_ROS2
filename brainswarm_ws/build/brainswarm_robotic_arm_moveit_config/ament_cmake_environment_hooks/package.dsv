@@ -1,0 +1,4 @@
+source;share/brainswarm_robotic_arm_moveit_config/local_setup.bash
+source;share/brainswarm_robotic_arm_moveit_config/local_setup.dsv
+source;share/brainswarm_robotic_arm_moveit_config/local_setup.sh
+source;share/brainswarm_robotic_arm_moveit_config/local_setup.zsh

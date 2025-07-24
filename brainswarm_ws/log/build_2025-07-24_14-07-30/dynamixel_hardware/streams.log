@@ -1,0 +1,85 @@
+[0.015s] Invoking command in '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/dynamixel_hardware -DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.484s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.587s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.638s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.644s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.659s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.869s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.900s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.950s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.962s] -- Looking for pthread.h
+[1.035s] -- Looking for pthread.h - found
+[1.035s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.108s] -- Found Threads: TRUE  
+[1.166s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.189s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.337s] -- Found dynamixel_workbench_toolbox: 2.2.5 (/opt/ros/humble/share/dynamixel_workbench_toolbox/cmake)
+[1.349s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.464s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.467s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.467s] -- Configured cppcheck include dirs: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/dynamixel_hardware/include
+[1.467s] -- Configured cppcheck exclude dirs and/or files: 
+[1.470s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.470s] -- Configured cpplint exclude dirs and/or files: 
+[1.470s] -- Added test 'lint_cmake' to check CMake code style
+[1.471s] -- Added test 'uncrustify' to check C / C++ code style
+[1.471s] -- Configured uncrustify additional arguments: 
+[1.472s] -- Added test 'xmllint' to check XML markup files
+[1.477s] -- Configuring done
+[1.526s] -- Generating done
+[1.534s] -- Build files have been written to: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware
+[1.575s] Invoked command in '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/dynamixel_hardware -DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware
+[1.576s] Invoking command in '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware -- -j8 -l8
+[1.634s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[11.021s] [100%] [32m[1mLinking CXX shared library libdynamixel_hardware.so[0m
+[11.584s] [100%] Built target dynamixel_hardware
+[11.595s] Invoked command in '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware -- -j8 -l8
+[11.597s] Invoking command in '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware
+[11.604s] -- Install configuration: ""
+[11.604s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/dynamixel_hardware.xml
+[11.604s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+[11.610s] -- Set runtime path of "/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so" to ""
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+[11.610s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+[11.611s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+[11.611s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+[11.611s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+[11.611s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+[11.611s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+[11.612s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+[11.612s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+[11.612s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+[11.612s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+[11.612s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+[11.613s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+[11.613s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+[11.613s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.613s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[11.613s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.613s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+[11.614s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+[11.614s] -- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml
+[11.616s] Invoked command in '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware

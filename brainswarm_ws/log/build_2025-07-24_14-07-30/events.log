@@ -1,0 +1,661 @@
+[0.000000] (-) TimerEvent: {}
+[0.000706] (brainswarm_robotic_arm) JobQueued: {'identifier': 'brainswarm_robotic_arm', 'dependencies': OrderedDict()}
+[0.000759] (bras_robot_description) JobQueued: {'identifier': 'bras_robot_description', 'dependencies': OrderedDict()}
+[0.000790] (dynamixel_hardware) JobQueued: {'identifier': 'dynamixel_hardware', 'dependencies': OrderedDict()}
+[0.000815] (srdfdom) JobQueued: {'identifier': 'srdfdom', 'dependencies': OrderedDict()}
+[0.000838] (brainswarm_robotic_arm_moveit_config) JobQueued: {'identifier': 'brainswarm_robotic_arm_moveit_config', 'dependencies': OrderedDict([('brainswarm_robotic_arm', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm')])}
+[0.000870] (brainswarm_robotic_arm) JobStarted: {'identifier': 'brainswarm_robotic_arm'}
+[0.008010] (bras_robot_description) JobStarted: {'identifier': 'bras_robot_description'}
+[0.011672] (dynamixel_hardware) JobStarted: {'identifier': 'dynamixel_hardware'}
+[0.014714] (srdfdom) JobStarted: {'identifier': 'srdfdom'}
+[0.020640] (brainswarm_robotic_arm) JobProgress: {'identifier': 'brainswarm_robotic_arm', 'progress': 'cmake'}
+[0.021143] (brainswarm_robotic_arm) Command: {'cmd': ['/usr/bin/cmake', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/brainswarm_robotic_arm', '-DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.023251] (bras_robot_description) JobProgress: {'identifier': 'bras_robot_description', 'progress': 'cmake'}
+[0.024000] (bras_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/bras_robot_description', '-DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025093] (dynamixel_hardware) JobProgress: {'identifier': 'dynamixel_hardware', 'progress': 'cmake'}
+[0.025612] (dynamixel_hardware) Command: {'cmd': ['/usr/bin/cmake', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/dynamixel_hardware', '-DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026891] (srdfdom) JobProgress: {'identifier': 'srdfdom', 'progress': 'cmake'}
+[0.027040] (srdfdom) Command: {'cmd': ['/usr/bin/cmake', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/srdfdom-2.0.4', '-DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.079219] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.082741] (bras_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.088607] (dynamixel_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099758] (-) TimerEvent: {}
+[0.102656] (srdfdom) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.110235] (srdfdom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.141144] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.143204] (bras_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.148190] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.151821] (dynamixel_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.153152] (bras_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.161957] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.193796] (srdfdom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199871] (-) TimerEvent: {}
+[0.203131] (srdfdom) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.203422] (srdfdom) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.203899] (srdfdom) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.213225] (srdfdom) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[0.218644] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225660] (srdfdom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.226340] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.226656] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.227129] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.229365] (bras_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.231313] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.231855] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.238796] (dynamixel_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.239072] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.239444] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.242580] (bras_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.242876] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.243043] (bras_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.243244] (bras_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.246449] (bras_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299971] (-) TimerEvent: {}
+[0.317433] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.324180] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.331157] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.331491] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.331954] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.332269] (dynamixel_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.332581] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.333077] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.333876] (bras_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.334864] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.335825] (dynamixel_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.341582] (bras_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.341855] (bras_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.342297] (bras_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.345234] (bras_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.384672] (srdfdom) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400106] (-) TimerEvent: {}
+[0.487445] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.488895] (srdfdom) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.495444] (dynamixel_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499242] (bras_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500178] (-) TimerEvent: {}
+[0.538825] (srdfdom) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.588855] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.598362] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599974] (bras_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600236] (-) TimerEvent: {}
+[0.637894] (srdfdom) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.640970] (srdfdom) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[0.649473] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.655785] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.670464] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.682365] (brainswarm_robotic_arm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.683231] (brainswarm_robotic_arm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.683965] (brainswarm_robotic_arm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.684877] (dynamixel_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.686500] (brainswarm_robotic_arm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.687790] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.690204] (bras_robot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.690935] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.692862] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Build files have been written to: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm\n'}
+[0.698000] (brainswarm_robotic_arm) CommandEnded: {'returncode': 0}
+[0.698616] (brainswarm_robotic_arm) JobProgress: {'identifier': 'brainswarm_robotic_arm', 'progress': 'build'}
+[0.700809] (brainswarm_robotic_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm', '--', '-j8', '-l8'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.701448] (-) TimerEvent: {}
+[0.705205] (dynamixel_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.714026] (bras_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.717387] (bras_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.719340] (bras_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.732160] (bras_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.733606] (bras_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.737001] (bras_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.739047] (bras_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description\n'}
+[0.740151] (brainswarm_robotic_arm) CommandEnded: {'returncode': 0}
+[0.740861] (brainswarm_robotic_arm) JobProgress: {'identifier': 'brainswarm_robotic_arm', 'progress': 'install'}
+[0.750260] (brainswarm_robotic_arm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.751655] (bras_robot_description) CommandEnded: {'returncode': 0}
+[0.752177] (bras_robot_description) JobProgress: {'identifier': 'bras_robot_description', 'progress': 'build'}
+[0.752694] (bras_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description', '--', '-j8', '-l8'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.757757] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.758042] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/lib/brainswarm_robotic_arm/trajectory_controller\n'}
+[0.758248] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/lib/brainswarm_robotic_arm/gripper_trajectory_controller\n'}
+[0.758406] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config\n'}
+[0.758567] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/real_robotic_arm_controllers.yaml\n'}
+[0.758722] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/ros_gz_bridge.yaml\n'}
+[0.758890] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//config/brainswarm_robotic_arm_controllers.yaml\n'}
+[0.759024] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes\n'}
+[0.759230] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_right_wing.STL\n'}
+[0.759366] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.759530] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_3.STL\n'}
+[0.759657] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/base_link.STL\n'}
+[0.759818] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_4.STL\n'}
+[0.759984] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_left_arm.STL\n'}
+[0.760166] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_right_arm.STL\n'}
+[0.760300] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_body.STL\n'}
+[0.760454] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_2.STL\n'}
+[0.760612] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/link_1.STL\n'}
+[0.760754] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//meshes/gripper_left_wing.STL\n'}
+[0.760925] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch\n'}
+[0.761074] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/simulation.launch.py.bak\n'}
+[0.761226] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/real_hardware.launch.py\n'}
+[0.761381] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/simulation.launch.py\n'}
+[0.761527] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//launch/real_hardware.launch.py.bak\n'}
+[0.761670] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts\n'}
+[0.761818] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts/gripper_trajectory_controller\n'}
+[0.761924] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//scripts/trajectory_controller\n'}
+[0.762110] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf\n'}
+[0.762314] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/brainswarm_robotic_arm.urdf.xacro\n'}
+[0.762474] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/real_hardware.urdf.xacro\n'}
+[0.762587] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/brainswarm_robotic_arm.urdf\n'}
+[0.762700] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm//urdf/brainswarm_robotic_arm.csv\n'}
+[0.762847] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/ament_index/resource_index/package_run_dependencies/brainswarm_robotic_arm\n'}
+[0.763126] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/ament_index/resource_index/parent_prefix_path/brainswarm_robotic_arm\n'}
+[0.763306] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.763471] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/ament_prefix_path.sh\n'}
+[0.763675] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/ament_prefix_path.dsv\n'}
+[0.763895] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/path.sh\n'}
+[0.764133] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/environment/path.dsv\n'}
+[0.764328] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.bash\n'}
+[0.764483] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.sh\n'}
+[0.764655] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.zsh\n'}
+[0.764815] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/local_setup.dsv\n'}
+[0.764987] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/package.dsv\n'}
+[0.765166] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/ament_index/resource_index/packages/brainswarm_robotic_arm\n'}
+[0.765333] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/cmake/brainswarm_robotic_armConfig.cmake\n'}
+[0.765490] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/cmake/brainswarm_robotic_armConfig-version.cmake\n'}
+[0.765654] (brainswarm_robotic_arm) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm/share/brainswarm_robotic_arm/package.xml\n'}
+[0.767619] (brainswarm_robotic_arm) CommandEnded: {'returncode': 0}
+[0.798011] (brainswarm_robotic_arm) JobEnded: {'identifier': 'brainswarm_robotic_arm', 'rc': 0}
+[0.799710] (brainswarm_robotic_arm_moveit_config) JobStarted: {'identifier': 'brainswarm_robotic_arm_moveit_config'}
+[0.801520] (-) TimerEvent: {}
+[0.805822] (bras_robot_description) CommandEnded: {'returncode': 0}
+[0.806680] (bras_robot_description) JobProgress: {'identifier': 'bras_robot_description', 'progress': 'install'}
+[0.807639] (bras_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/bras_robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.809347] (brainswarm_robotic_arm_moveit_config) JobProgress: {'identifier': 'brainswarm_robotic_arm_moveit_config', 'progress': 'cmake'}
+[0.810503] (brainswarm_robotic_arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/brainswarm_robotic_arm_moveit_config', '-DCMAKE_INSTALL_PREFIX=/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm:/opt/ros/humble')]), 'shell': False}
+[0.815742] (bras_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.816048] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//meshes\n'}
+[0.816210] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//meshes/base_link.STL\n'}
+[0.816410] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//meshes/link_2.STL\n'}
+[0.816844] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//meshes/link_1.STL\n'}
+[0.817315] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//config\n'}
+[0.817487] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//config/ros_gz_bridge.yaml\n'}
+[0.817637] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//config/bras_robot_controllers.yaml\n'}
+[0.817772] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//launch\n'}
+[0.817911] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//launch/simulation.launch.py\n'}
+[0.818087] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//worlds\n'}
+[0.818230] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//worlds/simulation_world_new.sdf\n'}
+[0.818343] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models\n'}
+[0.818454] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_tray\n'}
+[0.818556] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_tray/meshes\n'}
+[0.818688] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_tray/meshes/blue_tray.dae\n'}
+[0.818873] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_tray/model.config\n'}
+[0.818992] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_tray/model.sdf\n'}
+[0.819173] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall\n'}
+[0.819294] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/materials\n'}
+[0.819400] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/materials/scripts\n'}
+[0.819521] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/materials/scripts/wall_white.material\n'}
+[0.819638] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/materials/textures\n'}
+[0.819756] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/materials/textures/wall_color_white.jpg\n'}
+[0.819927] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/materials/textures/wall_color_white_old.jpg\n'}
+[0.820102] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/model.config\n'}
+[0.820303] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/wall/model.sdf\n'}
+[0.820411] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_4x4\n'}
+[0.820554] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_4x4/meshes\n'}
+[0.820672] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_4x4/meshes/target_4x4.dae\n'}
+[0.820776] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_4x4/model.config\n'}
+[0.820907] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_4x4/model.sdf\n'}
+[0.821047] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_target\n'}
+[0.821200] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_target/meshes\n'}
+[0.821263] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_target/meshes/green_target.dae\n'}
+[0.821349] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_target/model.config\n'}
+[0.821461] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_target/model.sdf\n'}
+[0.821557] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/red_target\n'}
+[0.821673] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/red_target/meshes\n'}
+[0.821785] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/red_target/meshes/red_target.dae\n'}
+[0.821891] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/red_target/model.config\n'}
+[0.822105] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/red_target/model.sdf\n'}
+[0.822295] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_table\n'}
+[0.822406] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_table/meshes\n'}
+[0.822528] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_table/meshes/target_table.dae\n'}
+[0.822730] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_table/model.config\n'}
+[0.822907] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/target_table/model.sdf\n'}
+[0.823092] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_box\n'}
+[0.823279] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_box/meshes\n'}
+[0.823410] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_box/meshes/blue_box.stl\n'}
+[0.823575] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_box/blue_box.sdf\n'}
+[0.823738] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_box/model.config\n'}
+[0.823890] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_target\n'}
+[0.824026] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_target/meshes\n'}
+[0.824207] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_target/meshes/blue_target.dae\n'}
+[0.824336] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_target/model.config\n'}
+[0.824459] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/blue_target/model.sdf\n'}
+[0.824585] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/bras_robot_description\n'}
+[0.824708] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/bras_robot_description/meshes\n'}
+[0.824863] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/bras_robot_description/meshes/base_link.STL\n'}
+[0.825012] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/bras_robot_description/meshes/link_2.STL\n'}
+[0.825184] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/bras_robot_description/meshes/link_1.STL\n'}
+[0.825574] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/robotbase\n'}
+[0.825744] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/robotbase/model.config\n'}
+[0.825896] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/robotbase/model.sdf\n'}
+[0.826049] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_target\n'}
+[0.826230] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_target/meshes\n'}
+[0.826353] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_target/meshes/yellow_target.dae\n'}
+[0.826510] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_target/model.config\n'}
+[0.826670] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_target/model.sdf\n'}
+[0.826855] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner\n'}
+[0.826989] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/materials\n'}
+[0.827120] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/materials/textures\n'}
+[0.827241] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/materials/textures/RubberMat_logo.png\n'}
+[0.827635] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/meshes\n'}
+[0.827804] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/meshes/ground_logo.dae\n'}
+[0.827965] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/model.config\n'}
+[0.828125] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_corner/model.sdf\n'}
+[0.828287] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/pick_object\n'}
+[0.828438] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/pick_object/pick_object.sdf\n'}
+[0.828584] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/pick_object/meshes\n'}
+[0.828732] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/pick_object/meshes/test_obj.dae\n'}
+[0.828880] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/pick_object/model.config\n'}
+[0.829040] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor\n'}
+[0.829215] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor/meshes\n'}
+[0.829385] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor/meshes/conveyor.obj\n'}
+[0.829505] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor/meshes/conveyor.dae\n'}
+[0.829643] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor/meshes/conveyor2.dae\n'}
+[0.829784] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor/model.config\n'}
+[0.829936] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/conveyor/model.sdf\n'}
+[0.830112] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop\n'}
+[0.830286] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/meshes\n'}
+[0.830405] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/meshes/propeller_rr.dae\n'}
+[0.830561] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/meshes/propeller_fl.dae\n'}
+[0.830795] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/meshes/propeller_rl.dae\n'}
+[0.831075] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/meshes/hull.dae\n'}
+[0.832959] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/meshes/propeller_fr.dae\n'}
+[0.833217] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/model.config\n'}
+[0.833396] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/thumbnails\n'}
+[0.833550] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/thumbnails/2.png\n'}
+[0.833689] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/thumbnails/4.png\n'}
+[0.833834] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/thumbnails/5.png\n'}
+[0.834002] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/thumbnails/3.png\n'}
+[0.834146] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/thumbnails/1.png\n'}
+[0.834298] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/parrot_bebop/model.sdf\n'}
+[0.834454] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/table\n'}
+[0.834644] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/table/model.config\n'}
+[0.834815] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/table/table.sdf\n'}
+[0.834934] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_tray\n'}
+[0.835051] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_tray/meshes\n'}
+[0.835271] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_tray/meshes/green_tray.dae\n'}
+[0.835402] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_tray/model.config\n'}
+[0.835533] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/green_tray/model.sdf\n'}
+[0.835656] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane\n'}
+[0.835766] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/materials\n'}
+[0.835896] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/materials/textures\n'}
+[0.836028] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/materials/textures/checker.png\n'}
+[0.836160] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/checkerboard_plane.sdf\n'}
+[0.836298] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/meshes\n'}
+[0.836464] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/meshes/checkerboard_plane.dae\n'}
+[0.836612] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/model.config\n'}
+[0.836747] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/thumbnails\n'}
+[0.836857] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/thumbnails/2.png\n'}
+[0.836969] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/thumbnails/4.png\n'}
+[0.837140] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/thumbnails/5.png\n'}
+[0.837316] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/thumbnails/3.png\n'}
+[0.837437] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/checkerboard_plane/thumbnails/1.png\n'}
+[0.837559] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big\n'}
+[0.837678] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/materials\n'}
+[0.837869] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/materials/textures\n'}
+[0.837981] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/materials/textures/RubberMat_logo.png\n'}
+[0.838142] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/meshes\n'}
+[0.838275] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/meshes/ground_logo.dae\n'}
+[0.838398] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/model.config\n'}
+[0.838497] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/ground_logo_big/model.sdf\n'}
+[0.838589] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_tray\n'}
+[0.838694] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_tray/meshes\n'}
+[0.838805] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_tray/meshes/yellow_tray.dae\n'}
+[0.838895] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_tray/model.config\n'}
+[0.838982] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//models/yellow_tray/model.sdf\n'}
+[0.839113] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//urdf\n'}
+[0.839212] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//urdf/bras_robot_description.csv\n'}
+[0.839328] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description//urdf/bras_robot_description.urdf\n'}
+[0.839642] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/ament_index/resource_index/package_run_dependencies/bras_robot_description\n'}
+[0.839943] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/ament_index/resource_index/parent_prefix_path/bras_robot_description\n'}
+[0.840147] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/environment/ament_prefix_path.sh\n'}
+[0.840329] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/environment/ament_prefix_path.dsv\n'}
+[0.840505] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/environment/path.sh\n'}
+[0.840665] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/environment/path.dsv\n'}
+[0.840809] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/local_setup.bash\n'}
+[0.840951] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/local_setup.sh\n'}
+[0.841125] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/local_setup.zsh\n'}
+[0.841290] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/local_setup.dsv\n'}
+[0.841511] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/package.dsv\n'}
+[0.841824] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/ament_index/resource_index/packages/bras_robot_description\n'}
+[0.842160] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/cmake/bras_robot_descriptionConfig.cmake\n'}
+[0.842338] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/cmake/bras_robot_descriptionConfig-version.cmake\n'}
+[0.842550] (bras_robot_description) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/bras_robot_description/share/bras_robot_description/package.xml\n'}
+[0.844568] (bras_robot_description) CommandEnded: {'returncode': 0}
+[0.857213] (bras_robot_description) JobEnded: {'identifier': 'bras_robot_description', 'rc': 0}
+[0.868602] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.880849] (dynamixel_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.901640] (-) TimerEvent: {}
+[0.911079] (dynamixel_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.924662] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.932108] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.961822] (dynamixel_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.973272] (dynamixel_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.988229] (srdfdom) StdoutLine: {'line': b'-- Locale nl_NL not available. Locale test will not be meaningful.\n'}
+[0.990694] (srdfdom) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.001758] (-) TimerEvent: {}
+[1.003007] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.012550] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.012857] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.013312] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.016554] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.031398] (srdfdom) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.038307] (srdfdom) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.046044] (dynamixel_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.046596] (dynamixel_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.096196] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.101871] (-) TimerEvent: {}
+[1.103925] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.104215] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.104685] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.107267] (srdfdom) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.107571] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.115286] (srdfdom) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.115553] (srdfdom) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.115965] (srdfdom) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.118520] (srdfdom) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.118770] (dynamixel_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.119925] (dynamixel_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.177617] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.200357] (dynamixel_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.201497] (srdfdom) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.201807] (srdfdom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201952] (-) TimerEvent: {}
+[1.259890] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.288926] (srdfdom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.289973] (srdfdom) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.294275] (srdfdom) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.302072] (-) TimerEvent: {}
+[1.313926] (srdfdom) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.328933] (srdfdom) StdoutLine: {'line': b'-- Generating done\n'}
+[1.337204] (srdfdom) StdoutLine: {'line': b'-- Build files have been written to: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom\n'}
+[1.345080] (srdfdom) CommandEnded: {'returncode': 0}
+[1.345703] (srdfdom) JobProgress: {'identifier': 'srdfdom', 'progress': 'build'}
+[1.346096] (srdfdom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom', '--', '-j8', '-l8'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.348980] (dynamixel_hardware) StdoutLine: {'line': b'-- Found dynamixel_workbench_toolbox: 2.2.5 (/opt/ros/humble/share/dynamixel_workbench_toolbox/cmake)\n'}
+[1.360460] (dynamixel_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.402211] (srdfdom) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o\x1b[0m\n'}
+[1.402439] (-) TimerEvent: {}
+[1.402595] (srdfdom) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o\x1b[0m\n'}
+[1.402711] (srdfdom) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.402820] (srdfdom) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.416131] (srdfdom) StdoutLine: {'line': b'[ 36%] Built target ament_cmake_python_copy_srdfdom\n'}
+[1.459737] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.464596] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[1.467878] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config\n'}
+[1.474767] (dynamixel_hardware) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.475560] (brainswarm_robotic_arm_moveit_config) CommandEnded: {'returncode': 0}
+[1.476335] (brainswarm_robotic_arm_moveit_config) JobProgress: {'identifier': 'brainswarm_robotic_arm_moveit_config', 'progress': 'build'}
+[1.476974] (brainswarm_robotic_arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config', '--', '-j8', '-l8'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm:/opt/ros/humble')]), 'shell': False}
+[1.478123] (dynamixel_hardware) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.478348] (dynamixel_hardware) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/src/dynamixel_hardware/include\n'}
+[1.478486] (dynamixel_hardware) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.481199] (dynamixel_hardware) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.481422] (dynamixel_hardware) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.481570] (dynamixel_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.482202] (dynamixel_hardware) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.482401] (dynamixel_hardware) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.483122] (dynamixel_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.487996] (dynamixel_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.502563] (-) TimerEvent: {}
+[1.537784] (dynamixel_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[1.540230] (brainswarm_robotic_arm_moveit_config) CommandEnded: {'returncode': 0}
+[1.540679] (brainswarm_robotic_arm_moveit_config) JobProgress: {'identifier': 'brainswarm_robotic_arm_moveit_config', 'progress': 'install'}
+[1.540720] (brainswarm_robotic_arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/brainswarm_robotic_arm_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm:/opt/ros/humble')]), 'shell': False}
+[1.545916] (dynamixel_hardware) StdoutLine: {'line': b'-- Build files have been written to: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware\n'}
+[1.552649] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.552996] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/brainswarm_robotic_arm_moveit_config\n'}
+[1.553432] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/brainswarm_robotic_arm_moveit_config\n'}
+[1.553760] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/environment/ament_prefix_path.sh\n'}
+[1.554007] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.554259] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/environment/path.sh\n'}
+[1.554527] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/environment/path.dsv\n'}
+[1.554784] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/local_setup.bash\n'}
+[1.555038] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/local_setup.sh\n'}
+[1.555314] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/local_setup.zsh\n'}
+[1.555561] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/local_setup.dsv\n'}
+[1.555811] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/package.dsv\n'}
+[1.556139] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/ament_index/resource_index/packages/brainswarm_robotic_arm_moveit_config\n'}
+[1.556453] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/cmake/brainswarm_robotic_arm_moveit_configConfig.cmake\n'}
+[1.556678] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/cmake/brainswarm_robotic_arm_moveit_configConfig-version.cmake\n'}
+[1.556931] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/package.xml\n'}
+[1.557351] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch\n'}
+[1.559208] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/spawn_controllers.launch.py\n'}
+[1.559474] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/rsp.launch.py\n'}
+[1.559620] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/move_group.launch.py\n'}
+[1.559807] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/demo.launch.py\n'}
+[1.559953] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/warehouse_db.launch.py\n'}
+[1.560151] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[1.560338] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/moveit_rviz.launch.py\n'}
+[1.560508] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/launch/setup_assistant.launch.py\n'}
+[1.560638] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config\n'}
+[1.560781] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/moveit.rviz\n'}
+[1.560946] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/brainswarm_robotic_arm.srdf\n'}
+[1.561135] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/sensors_3d.yaml\n'}
+[1.561312] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/kinematics.yaml\n'}
+[1.561443] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/moveit_controllers.yaml\n'}
+[1.561602] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/robotisim_robotic_arm.srdf\n'}
+[1.561772] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/joint_limits.yaml\n'}
+[1.561895] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/brainswarm_robotic_arm.ros2_control.xacro\n'}
+[1.562055] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[1.562199] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/brainswarm_robotic_arm.urdf.xacro\n'}
+[1.562366] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/initial_positions.yaml\n'}
+[1.562511] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/config/ros2_controllers.yaml\n'}
+[1.562633] (brainswarm_robotic_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/brainswarm_robotic_arm_moveit_config/share/brainswarm_robotic_arm_moveit_config/.setup_assistant\n'}
+[1.565870] (brainswarm_robotic_arm_moveit_config) CommandEnded: {'returncode': 0}
+[1.585876] (brainswarm_robotic_arm_moveit_config) JobEnded: {'identifier': 'brainswarm_robotic_arm_moveit_config', 'rc': 0}
+[1.587006] (dynamixel_hardware) CommandEnded: {'returncode': 0}
+[1.587593] (dynamixel_hardware) JobProgress: {'identifier': 'dynamixel_hardware', 'progress': 'build'}
+[1.588019] (dynamixel_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware', '--', '-j8', '-l8'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.602664] (-) TimerEvent: {}
+[1.645406] (dynamixel_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o\x1b[0m\n'}
+[1.701352] (srdfdom) StdoutLine: {'line': b'running egg_info\n'}
+[1.701959] (srdfdom) StdoutLine: {'line': b'creating srdfdom.egg-info\n'}
+[1.702199] (srdfdom) StdoutLine: {'line': b'writing srdfdom.egg-info/PKG-INFO\n'}
+[1.702400] (srdfdom) StdoutLine: {'line': b'writing dependency_links to srdfdom.egg-info/dependency_links.txt\n'}
+[1.702580] (srdfdom) StdoutLine: {'line': b'writing top-level names to srdfdom.egg-info/top_level.txt\n'}
+[1.702688] (-) TimerEvent: {}
+[1.703011] (srdfdom) StdoutLine: {'line': b"writing manifest file 'srdfdom.egg-info/SOURCES.txt'\n"}
+[1.705185] (srdfdom) StdoutLine: {'line': b"reading manifest file 'srdfdom.egg-info/SOURCES.txt'\n"}
+[1.705735] (srdfdom) StdoutLine: {'line': b"writing manifest file 'srdfdom.egg-info/SOURCES.txt'\n"}
+[1.740818] (srdfdom) StdoutLine: {'line': b'[ 36%] Built target ament_cmake_python_build_srdfdom_egg\n'}
+[1.802848] (-) TimerEvent: {}
+[1.903247] (-) TimerEvent: {}
+[2.003621] (-) TimerEvent: {}
+[2.103989] (-) TimerEvent: {}
+[2.204408] (-) TimerEvent: {}
+[2.304807] (-) TimerEvent: {}
+[2.405225] (-) TimerEvent: {}
+[2.493791] (srdfdom) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.505357] (-) TimerEvent: {}
+[2.542183] (srdfdom) StdoutLine: {'line': b'[ 45%] Built target gtest_main\n'}
+[2.605480] (-) TimerEvent: {}
+[2.705834] (-) TimerEvent: {}
+[2.806218] (-) TimerEvent: {}
+[2.906583] (-) TimerEvent: {}
+[3.006936] (-) TimerEvent: {}
+[3.107317] (-) TimerEvent: {}
+[3.207612] (-) TimerEvent: {}
+[3.307913] (-) TimerEvent: {}
+[3.408227] (-) TimerEvent: {}
+[3.508526] (-) TimerEvent: {}
+[3.608823] (-) TimerEvent: {}
+[3.709122] (-) TimerEvent: {}
+[3.790924] (srdfdom) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libsrdfdom.so\x1b[0m\n'}
+[3.809230] (-) TimerEvent: {}
+[3.909530] (-) TimerEvent: {}
+[3.949694] (srdfdom) StdoutLine: {'line': b'[ 54%] Built target srdfdom\n'}
+[4.009657] (-) TimerEvent: {}
+[4.109956] (-) TimerEvent: {}
+[4.210261] (-) TimerEvent: {}
+[4.310557] (-) TimerEvent: {}
+[4.410850] (-) TimerEvent: {}
+[4.511146] (-) TimerEvent: {}
+[4.564089] (srdfdom) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.611267] (-) TimerEvent: {}
+[4.620327] (srdfdom) StdoutLine: {'line': b'[ 63%] Built target gtest\n'}
+[4.640110] (srdfdom) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o\x1b[0m\n'}
+[4.640286] (srdfdom) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o\x1b[0m\n'}
+[4.711398] (-) TimerEvent: {}
+[4.811754] (-) TimerEvent: {}
+[4.912134] (-) TimerEvent: {}
+[5.012510] (-) TimerEvent: {}
+[5.112879] (-) TimerEvent: {}
+[5.213269] (-) TimerEvent: {}
+[5.313646] (-) TimerEvent: {}
+[5.414014] (-) TimerEvent: {}
+[5.514384] (-) TimerEvent: {}
+[5.614695] (-) TimerEvent: {}
+[5.715019] (-) TimerEvent: {}
+[5.815393] (-) TimerEvent: {}
+[5.915686] (-) TimerEvent: {}
+[5.976180] (srdfdom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_cpp_C\x1b[0m\n'}
+[5.976446] (srdfdom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_cpp_nl_NL.UTF-8\x1b[0m\n'}
+[6.015823] (-) TimerEvent: {}
+[6.116178] (-) TimerEvent: {}
+[6.164811] (srdfdom) StdoutLine: {'line': b'[100%] Built target test_cpp_nl_NL.UTF-8\n'}
+[6.165018] (srdfdom) StdoutLine: {'line': b'[100%] Built target test_cpp_C\n'}
+[6.175949] (srdfdom) CommandEnded: {'returncode': 0}
+[6.176738] (srdfdom) JobProgress: {'identifier': 'srdfdom', 'progress': 'install'}
+[6.176973] (srdfdom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/srdfdom'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.185300] (srdfdom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.185604] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4\n'}
+[6.186804] (srdfdom) StdoutLine: {'line': b'-- Set runtime path of "/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""\n'}
+[6.187015] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/libsrdfdom.so\n'}
+[6.187169] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom\n'}
+[6.187297] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom/visibility_control.h\n'}
+[6.187441] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom/model.h\n'}
+[6.187625] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/include/srdfdom/srdf_writer.h\n'}
+[6.187896] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/lib/srdfdom/display_srdf\n'}
+[6.188224] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh\n'}
+[6.188447] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv\n'}
+[6.188665] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info\n'}
+[6.188882] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt\n'}
+[6.189049] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO\n'}
+[6.189385] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt\n'}
+[6.189536] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt\n'}
+[6.189651] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom\n'}
+[6.189747] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py\n'}
+[6.189866] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py\n'}
+[6.216281] (-) TimerEvent: {}
+[6.223927] (srdfdom) StdoutLine: {'line': b"Listing '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...\n"}
+[6.224117] (srdfdom) StdoutLine: {'line': b"Compiling '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...\n"}
+[6.224192] (srdfdom) StdoutLine: {'line': b"Compiling '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...\n"}
+[6.230282] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/library_path.sh\n'}
+[6.230538] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv\n'}
+[6.230779] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom\n'}
+[6.231007] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom\n'}
+[6.231210] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh\n'}
+[6.231402] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv\n'}
+[6.231588] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/path.sh\n'}
+[6.231746] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/environment/path.dsv\n'}
+[6.231908] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.bash\n'}
+[6.232079] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.sh\n'}
+[6.232244] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.zsh\n'}
+[6.232431] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/local_setup.dsv\n'}
+[6.232616] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/package.dsv\n'}
+[6.232833] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom\n'}
+[6.233068] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake\n'}
+[6.233265] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake\n'}
+[6.233421] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.233590] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.233756] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake\n'}
+[6.233894] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake\n'}
+[6.234091] (srdfdom) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/srdfdom/share/srdfdom/package.xml\n'}
+[6.236101] (srdfdom) CommandEnded: {'returncode': 0}
+[6.251696] (srdfdom) JobEnded: {'identifier': 'srdfdom', 'rc': 0}
+[6.316415] (-) TimerEvent: {}
+[6.416717] (-) TimerEvent: {}
+[6.517026] (-) TimerEvent: {}
+[6.617344] (-) TimerEvent: {}
+[6.717649] (-) TimerEvent: {}
+[6.817960] (-) TimerEvent: {}
+[6.918288] (-) TimerEvent: {}
+[7.018591] (-) TimerEvent: {}
+[7.118891] (-) TimerEvent: {}
+[7.219202] (-) TimerEvent: {}
+[7.319506] (-) TimerEvent: {}
+[7.419813] (-) TimerEvent: {}
+[7.520131] (-) TimerEvent: {}
+[7.620430] (-) TimerEvent: {}
+[7.720723] (-) TimerEvent: {}
+[7.821010] (-) TimerEvent: {}
+[7.921348] (-) TimerEvent: {}
+[8.021646] (-) TimerEvent: {}
+[8.121935] (-) TimerEvent: {}
+[8.222205] (-) TimerEvent: {}
+[8.322496] (-) TimerEvent: {}
+[8.422784] (-) TimerEvent: {}
+[8.523083] (-) TimerEvent: {}
+[8.623384] (-) TimerEvent: {}
+[8.723676] (-) TimerEvent: {}
+[8.823971] (-) TimerEvent: {}
+[8.924297] (-) TimerEvent: {}
+[9.024585] (-) TimerEvent: {}
+[9.124886] (-) TimerEvent: {}
+[9.225183] (-) TimerEvent: {}
+[9.325473] (-) TimerEvent: {}
+[9.425763] (-) TimerEvent: {}
+[9.526082] (-) TimerEvent: {}
+[9.626381] (-) TimerEvent: {}
+[9.726663] (-) TimerEvent: {}
+[9.826959] (-) TimerEvent: {}
+[9.927262] (-) TimerEvent: {}
+[10.027559] (-) TimerEvent: {}
+[10.127849] (-) TimerEvent: {}
+[10.228138] (-) TimerEvent: {}
+[10.328427] (-) TimerEvent: {}
+[10.428771] (-) TimerEvent: {}
+[10.529104] (-) TimerEvent: {}
+[10.629404] (-) TimerEvent: {}
+[10.729715] (-) TimerEvent: {}
+[10.830017] (-) TimerEvent: {}
+[10.930371] (-) TimerEvent: {}
+[11.030689] (-) TimerEvent: {}
+[11.032653] (dynamixel_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_hardware.so\x1b[0m\n'}
+[11.130807] (-) TimerEvent: {}
+[11.231171] (-) TimerEvent: {}
+[11.331531] (-) TimerEvent: {}
+[11.431856] (-) TimerEvent: {}
+[11.532169] (-) TimerEvent: {}
+[11.595882] (dynamixel_hardware) StdoutLine: {'line': b'[100%] Built target dynamixel_hardware\n'}
+[11.606385] (dynamixel_hardware) CommandEnded: {'returncode': 0}
+[11.607080] (dynamixel_hardware) JobProgress: {'identifier': 'dynamixel_hardware', 'progress': 'install'}
+[11.607906] (dynamixel_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware'], 'cwd': '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,17,0'), ('HOSTNAME', 'b8236e5acf71'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Humble'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/build/dynamixel_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%2'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.615413] (dynamixel_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.615665] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/dynamixel_hardware.xml\n'}
+[11.615891] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so\n'}
+[11.621105] (dynamixel_hardware) StdoutLine: {'line': b'-- Set runtime path of "/root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/lib/libdynamixel_hardware.so" to ""\n'}
+[11.621353] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include\n'}
+[11.621544] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware\n'}
+[11.621627] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp\n'}
+[11.621738] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h\n'}
+[11.621807] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh\n'}
+[11.621938] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv\n'}
+[11.622094] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware\n'}
+[11.622299] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware\n'}
+[11.622525] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh\n'}
+[11.622671] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv\n'}
+[11.622806] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh\n'}
+[11.622978] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv\n'}
+[11.623341] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash\n'}
+[11.623523] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh\n'}
+[11.623696] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh\n'}
+[11.623817] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv\n'}
+[11.623945] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv\n'}
+[11.624230] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware\n'}
+[11.624458] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware\n'}
+[11.624631] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.624795] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.624935] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.625085] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake\n'}
+[11.625286] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake\n'}
+[11.625414] (dynamixel_hardware) StdoutLine: {'line': b'-- Installing: /root/Humble/Zero2RoboticArm-6_DOF_Robotic_Arm_MicroROS_ROS2/brainswarm_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.xml\n'}
+[11.627163] (dynamixel_hardware) CommandEnded: {'returncode': 0}
+[11.633069] (-) TimerEvent: {}
+[11.644655] (dynamixel_hardware) JobEnded: {'identifier': 'dynamixel_hardware', 'rc': 0}
+[11.645298] (-) EventReactorShutdown: {}
