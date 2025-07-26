@@ -75,7 +75,7 @@ git clone https://github.com/BrainSwarmRobotics/Zero2RoboticArm-6_DOF_Robotic_Ar
 ### 4️⃣ Install Dependencies
 
 ```bash
-sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-ros-ign ros-humble-ign-ros2-control ros-humble-ros-ign-gazebo
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-ros-ign ros-humble-ign-ros2-control ros-humble-ros-ign-gazebo ros-humble-dynamixel-workbench
 ```
 
 ### 4️⃣ Configure Packages
