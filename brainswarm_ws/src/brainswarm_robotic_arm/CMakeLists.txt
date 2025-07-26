@@ -10,6 +10,10 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
 
 install(PROGRAMS
   scripts/trajectory_controller  # Your Python script path
@@ -20,6 +24,21 @@ install(PROGRAMS
   scripts/gripper_trajectory_controller  # Your Python script path
   DESTINATION lib/${PROJECT_NAME}
 )
+
+add_executable(get_pose src/get_pose.cpp)
+
+ament_target_dependencies(get_pose
+  rclcpp
+  std_msgs
+  geometry_msgs
+  moveit_ros_planning_interface
+)
+
+install(TARGETS
+  get_pose
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
